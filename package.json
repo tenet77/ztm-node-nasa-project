@@ -14,7 +14,7 @@
     "build": "npm run build --prefix client",
     "deploy": "npm-run-all --serial build server",
     "deploy-clustrer": "npm-run-all --serial build server-cluster",
-    "test": "npm run test --prefix server"
+    "test": "npm run test --prefix server && npm run test --prefix client"
   },
   "keywords": [],
   "author": "",
