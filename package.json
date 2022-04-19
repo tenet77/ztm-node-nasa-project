@@ -14,7 +14,7 @@
     "build": "npm run build --prefix client",
     "deploy": "npm-run-all --serial build server",
     "deploy-clustrer": "npm-run-all --serial build server-cluster",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test --prefix server"
   },
   "keywords": [],
   "author": "",

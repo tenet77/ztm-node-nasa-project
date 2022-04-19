@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const { modelName } = require('../models/planets.mongo');
 
+require('dotenv').config();
+
 const MONGO_URL = process.env.MONGO_URL;
 
 // Mongo DB connection
